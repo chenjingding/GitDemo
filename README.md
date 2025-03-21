@@ -33,6 +33,9 @@
 
 ## 经典语录  
 - **派**大**星**！我们去抓水母吧！  
+<img src="https://github.com/chenjingding/GitDemo/blob/master/%E5%9B%BE%E7%89%871.png">                     
+<img src="https://github.com/chenjingding/GitDemo/blob/master/%E6%88%AA%E5%9B%BE2.png">                     
+
 
 ---  
 
