@@ -57,5 +57,14 @@ $$
 - **TF-IDF 特征**：  
    - 设置参数 `feature_selection = 'tfidf'`，系统将启用 TF-IDF 加权。  
 
+$$
+
+\begin
+
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+
+\end
+
+$$
 
 <img src="https://github.com/chenjingding/GitDemo/blob/master/6.png">                     
