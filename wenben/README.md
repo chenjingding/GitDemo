@@ -14,9 +14,16 @@
 2. **贝叶斯定理的应用**：  
    - 在邮件分类任务中，我们可以利用贝叶斯定理来计算某封邮件属于某一类别的概率。具体公式为：  
 
-$$    
-P(C|X) = \frac{P(X|C) \cdot P(C)}{P(X)}  
-$$  
+$$
+
+\begin
+
+P(C|X) = \frac{P(X|C) \cdot P(C)}{P(X)}
+
+\end
+
+$$
+
   其中， $C$ 表示类别， $X$ 表示特征向量。在邮件分类中， $P(X|C)$ 是基于特征的条件概率, $P(C)$ 是类别的先验概率，而 $P(X)$ 是特征的边际概率。  
 
 ### 数据处理流程  
@@ -42,9 +49,16 @@ $$
    - TF-IDF（Term Frequency-Inverse Document Frequency）不仅考虑词的频率，还综合考虑词在整个语料库中的重要性。通过对单词频率进行加权，能够更好地反映某个词在语料库中的相对重要性。  
 
    - 数学公式：  
-$$  
+$$
+
+\begin
+
 \text{TF-IDF}(w, d) = \text{TF}(w, d) \times \text{IDF}(w)  
-$$   
+
+\end
+
+$$
+
   其中,  $\text{TF}(w, d)$ 是词 $w$ 在文档 $d$ 中出现的频率， $\text{IDF}(w) = \log\left(\frac{N}{df(w)}\right)$ 是逆文档频率， $N$ 为总文档数， $df(w)$ 为包含词  $w$ 的文档数量。  
 
 ### 高频词/TF-IDF 两种特征模式的切换方法  
@@ -57,14 +71,6 @@ $$
 - **TF-IDF 特征**：  
    - 设置参数 `feature_selection = 'tfidf'`，系统将启用 TF-IDF 加权。  
 
-$$
 
-\begin
-
-x = {-b \pm \sqrt{b^2-4ac} \over 2a}
-
-\end
-
-$$
 
 <img src="https://github.com/chenjingding/GitDemo/blob/master/6.png">                     
