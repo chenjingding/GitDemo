@@ -16,11 +16,9 @@
 
 $$
 
-\begin
 
 P(C|X) = \frac{P(X|C) \cdot P(C)}{P(X)}
 
-\end
 
 $$
 
@@ -49,13 +47,12 @@ $$
    - TF-IDF（Term Frequency-Inverse Document Frequency）不仅考虑词的频率，还综合考虑词在整个语料库中的重要性。通过对单词频率进行加权，能够更好地反映某个词在语料库中的相对重要性。  
 
    - 数学公式：  
+
 $$
 
-\begin
 
 \text{TF-IDF}(w, d) = \text{TF}(w, d) \times \text{IDF}(w)  
 
-\end
 
 $$
 
