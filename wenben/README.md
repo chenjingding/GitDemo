@@ -15,13 +15,7 @@
    - 在邮件分类任务中，我们可以利用贝叶斯定理来计算某封邮件属于某一类别的概率。具体公式为：  
 
 $$
-
-\begin
-
 P(C|X) = \frac{P(X|C) \cdot P(C)}{P(X)}
-
-\end
-
 $$
 
   其中， $C$ 表示类别， $X$ 表示特征向量。在邮件分类中， $P(X|C)$ 是基于特征的条件概率, $P(C)$ 是类别的先验概率，而 $P(X)$ 是特征的边际概率。  
@@ -51,13 +45,7 @@ $$
    - 数学公式：  
 
 $$
-
-\begin
-
 \text{TF-IDF}(w, d) = \text{TF}(w, d) \times \text{IDF}(w)  
-
-\end
-
 $$
 
   其中,  $\text{TF}(w, d)$ 是词 $w$ 在文档 $d$ 中出现的频率， $\text{IDF}(w) = \log\left(\frac{N}{df(w)}\right)$ 是逆文档频率， $N$ 为总文档数， $df(w)$ 为包含词  $w$ 的文档数量。  
@@ -72,8 +60,6 @@ $$
 - **TF-IDF 特征**：  
    - 设置参数 `feature_selection = 'tfidf'`，系统将启用 TF-IDF 加权。  
 
-$$
-e^{i\pi} + 1 = 0
-$$
+
 
 <img src="https://github.com/chenjingding/GitDemo/blob/master/6.png">                     
