@@ -16,9 +16,11 @@
 
 $$
 
+\
 
 P(C|X) = \frac{P(X|C) \cdot P(C)}{P(X)}
 
+\
 
 $$
 
@@ -50,9 +52,11 @@ $$
 
 $$
 
+\
 
 \text{TF-IDF}(w, d) = \text{TF}(w, d) \times \text{IDF}(w)  
 
+\
 
 $$
 
