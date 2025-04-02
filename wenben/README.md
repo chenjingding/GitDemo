@@ -72,6 +72,8 @@ $$
 - **TF-IDF 特征**：  
    - 设置参数 `feature_selection = 'tfidf'`，系统将启用 TF-IDF 加权。  
 
-
+$$
+e^{i\pi} + 1 = 0
+$$
 
 <img src="https://github.com/chenjingding/GitDemo/blob/master/6.png">                     
