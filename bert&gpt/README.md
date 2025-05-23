@@ -32,4 +32,7 @@
 | **预训练数据** | CLUE 语料库 |
 | **最大序列长度** | 1024 tokens |
 
-<img src=".png">                     
+<img src="https://github.com/chenjingding/GitDemo/blob/master/bert%26gpt/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-05-20%20190231.png">                     
+<img src="https://github.com/chenjingding/GitDemo/blob/master/bert%26gpt/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-05-20%20190326.png">                     
+<img src="https://github.com/chenjingding/GitDemo/blob/master/bert%26gpt/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-05-20%20202433.png">                     
+<img src="https://github.com/chenjingding/GitDemo/blob/master/bert%26gpt/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-05-20%20202508.png">                     
